@@ -6,7 +6,7 @@ comments: true
 categories: blog
 ---
 This is my first blog post.
-<form method="POST" action="https://api.staticman.net/v2/entry/shivendra-chauhan/shivendra-chauhan.ggithub.io/master/">
+<form method="POST" action="https://api.staticman.net/v2/entry/shivendra-chauhan/shivendra-chauhan.github.io/master/">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <label>Name</label><input name="fields[name]" type="text">
 
