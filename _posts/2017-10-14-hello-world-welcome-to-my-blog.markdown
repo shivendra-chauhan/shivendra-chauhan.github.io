@@ -8,9 +8,11 @@ categories: blog
 This is my first blog post.
 <form method="POST" action="https://api.staticman.net/v2/entry/shivendra-chauhan/shivendra-chauhan.ggithub.io/master/">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="email">E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
+  <label>Name</label><input name="fields[name]" type="text">
+
+  <label>E-mail</label><input name="fields[email]" type="email">
+
+  <label>Message</label><textarea name="fields[message]"></textarea>
 
 
   <button type="submit">Go!</button>
