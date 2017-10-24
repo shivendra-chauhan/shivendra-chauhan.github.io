@@ -6,15 +6,4 @@ comments: true
 categories: blog
 permalink: /first-blog/
 ---
-This is my first blog post.
-<form method="POST" action="https://api.staticman.net/v2/entry/shivendra-chauhan/shivendra-chauhan.github.io/master/">
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label>Name</label><input name="fields[name]" type="text">
-
-  <label>E-mail</label><input name="fields[email]" type="email">
-
-  <label>Message</label><textarea name="fields[message]"></textarea>
-
-
-  <button type="submit">Go!</button>
-</form>
+This is my first blog post. Please check out my about page.
