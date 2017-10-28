@@ -9,6 +9,7 @@ I'm writing this blog to simplify the problems faced by a newbie to the programm
 Today, I'm working to enhance this blog with my recent work with Python. My main aim is to have some python code visible to the user and also depict a graph at the end. I've looked through some datasets and want to figure what could I do with one "Indian Rails Time Table" from the year 2015.
 
 Step 0(for preparation): I'll upload the dataset to my Github repository. I do not own copyrights to the dataset and have borrowed it from the data.gov.in for academic purposes.
+
 Step 2: because step 1 is the hardest. I've realised, with most of the people I interact with, the fear of the beginning is the toughest part. I've also felt that if the water is cold, jump right in. If you wait for too long, your body becomes cold. So the best method for a newbie to start programming, is to get dirty with it. Don't pick up a notebook and pen to take some notes. Open a text editor and write
 
     print "Hello World"
