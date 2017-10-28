@@ -2,7 +2,7 @@
 layout: post
 title: "Writing Python in a Ruby Jekyll blog"
 comments: true
-categories: python, blog
+categories: data-wrangling python
 ---
 I'm writing this blog to simplify the problems faced by a newbie to the programming world. I have my hands tied in a lot of different projects, mostly because the way I work is by doing long hours of research and writing the cleanest and sensible code. If I find code that I may not understand, I get a feeling that the computer is going to have a hard time too, compiling and interpreting it. So edit, edit, edit.. debug.
 
@@ -21,7 +21,9 @@ Well, there you go, wasn't that bad was it? Now let's install some packages. If 
     f = pd.read_csv('trains.csv')
 
 Let's clean up the data a little. Notice that the train numbers are objects and have single quotations at both start and end. To remove these:
+
     import re
+
 I've just imported regular expressions library to try to get the integer out of the object. Next, I write the code.
 
     def train_num(str_num):
