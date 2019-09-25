@@ -18,8 +18,9 @@ email: shivendra_chauhan@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TalenChase
+twitter_username: chivalr_y
 github_username:  secret-dave
+google_analytics: UA-148748384-1
 
 # Build settings
 markdown: kramdown
